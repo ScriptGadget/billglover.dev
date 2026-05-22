@@ -103,6 +103,57 @@ The lineage is: things that require a different posture of attention to read. Yo
 - The blog does not end. It changes.
 - When the narrator mentions having written Toadskin, do not emphasize it. One sentence. Then move on.
 
+## three films — do not reference directly; plant details only
+
+These three films contain details the narrator has encountered. None of them are the subject of a post. They surface as incidental references — a film the narrator watched, a book on a shelf, a detail from something seen years ago. The details listed below are the ones that matter. Plant them casually, one at a time, across the arc. Never cluster them. The connections are for the reader to find.
+
+---
+
+**Wizards** (Ralph Bakshi, 1977)
+
+The film's central device: a villain who rediscovers old propaganda footage and uses it as a weapon. The footage works on soldiers even when they know it's propaganda. It bypasses conscious recognition and operates on the body before the mind catches up. The soldiers who see it begin fighting for the wrong side without deciding to.
+
+Relevant details to plant, scattered across the arc:
+- The narrator watched this film three times in one week sometime during the period they were working through the notebook. This is mentioned once, without context, no before or after.
+- The technique Bakshi used is rotoscoping: animators trace over filmed live-action footage, frame by frame. The result looks invented but is grounded in real movement. The notebook may work similarly — it looks like a constructed system but is a tracing of something that already exists.
+- The two wizard brothers are twins. One became a master of ancient natural magic. One became a master of technology and psychological manipulation. They are mirror images. The good wizard wins not with superior magic but by pulling out a pistol. Seven words. Then it's over.
+- The propaganda footage works because it is not language. It does not need to be understood. It needs only to be perceived.
+
+The connection to the narrative, never stated: the notation system in the notebook works the same way. It does not require comprehension. It requires exposure.
+
+---
+
+**The Flight of Dragons** (Arthur Rankin Jr. / Jules Bass, 1982)
+
+Based in part on Peter Dickinson's 1979 book of the same name — a genuine pseudo-scientific theory of dragon biology. Dickinson's argument: dragons achieve buoyancy through hydrogen produced by gastric acids reacting with limestone ingested as ballast. They ignite excess gas through catalytic tissue at the back of the throat. The theory is internally consistent. It has footnotes.
+
+The film's plot: the protagonist, a game designer named Peter Dickinson (named after the author), is transported to a fantasy world and accidentally merged with a dragon. He can think in both a human and a dragon body simultaneously. He defeats the final villain by reciting scientific explanations. He says: there are no such things as dragons. He does not finish the sentence. The dragon he is merged with begins to die.
+
+Relevant details to plant:
+- The narrator owns a copy of Peter Dickinson's book "The Flight of Dragons." It was on the same shelf as the notebook when the narrator found it. This is mentioned exactly once, in a post that is about something else. It is not returned to.
+- The Dickinson theory describes a process that is real and operational but can be destroyed by accurate description. The mechanism stops working once you explain how it works. This is the rule the narrator follows without knowing it.
+- The last wizard in the film is literally dying because the world no longer believes in magic. Belief is not the power source. Belief is the insulation. Without it, the mechanism is exposed to a frequency that destroys it.
+- The villain's name is Ommadon. He wears a red crown that is a source of primal chaos. His magic operates through fear and compulsion, not understanding. He is defeated by someone who understands too much.
+
+The connection to the narrative, never stated: the reason the narrator never explains the notebook is not that they don't understand it. It is that they have read enough to know what explaining it would do.
+
+---
+
+**Hackers** (Iain Softley, 1995)
+
+The film's central McGuffin: a file that looks like garbage. A hacker named Joey downloads it thinking it is useless. It is not useless. It contains the Da Vinci worm, a program designed to drain money in quantities too small to notice, hidden inside a compressed data stream that registers as random noise. The file looks like nothing because it is designed to.
+
+Relevant details to plant:
+- The narrator has seen this film. This is never stated directly. It surfaces as a reference to "the garbage file problem" — a term the narrator uses once, without explanation, when describing the hex dump of the Toadskin buggy program's 49-byte output. The output "looks like random data." The narrator does not investigate further. This appears in the Contamination arc.
+- The Da Vinci worm triggers when a specific threshold condition is met. Below that threshold it is invisible. Above it, it executes. The Toadskin bug triggers when the loop body produces exactly seven stack operations. Below seven: normal behavior. At seven: the condition check is skipped.
+- The film depicts cyberspace as architecture — a city you fly through, information rendered as buildings with geometry and altitude. Programs are objects you navigate spatially rather than read linearly. This is the visual logic the narrator begins applying to the notation system in the Contamination arc. They do not name it.
+- The hacker community in the film has a parallel language, a parallel set of names, a parallel identity system. The real names are unknown. The handles are what persist. KALENDA has no other edits. The account's real identity is not recoverable.
+- "Hack the planet." The Gibson is a system so large no single person holds its complete structure in their head. Everyone who interacts with it holds a fragment. The fragments are not individually meaningful. The notebook is also this.
+
+The connection to the narrative, never stated: the 49-byte output is not random data. It was not generated by the bug. The bug is what revealed it.
+
+---
+
 ## things to avoid
 
 - The narrator becoming a character who talks about their feelings.
@@ -110,3 +161,4 @@ The lineage is: things that require a different posture of attention to read. Yo
 - Escalation for its own sake.
 - Anything that sounds like an ARG that knows it's an ARG.
 - Treating the undeciphered scripts as mysterious in tone. They are facts. Document them like facts.
+- Naming any of the three films directly in a post title or as the explicit subject of a post.
