@@ -1,0 +1,27 @@
+{
+  "arc_position": "discovery",
+  "posts": [
+    {
+      "slug": "on-beginning",
+      "title": "on beginning",
+      "date": "2026-05-21",
+      "summary": "Narrator bought the domain yesterday. Found a notebook in a moving box — not theirs, unknown handwriting, grammar rules for an unidentifiable language. Working through it since March.",
+      "planted": ["notebook found in moving box", "handwriting not narrator's", "grammar rules for unknown language", "working through it since March"]
+    }
+  ],
+  "active_threads": [
+    "the notebook and its unknown language",
+    "what the notation system actually does"
+  ],
+  "planted_details": [
+    "notebook with unknown grammar rules in unknown handwriting",
+    "narrator has been working through it since March"
+  ],
+  "motifs_used": [],
+  "open_questions": [
+    "whose notebook is it",
+    "what language is described",
+    "what does working through it mean"
+  ],
+  "next_step": "Introduce a first artifact that feels related to the notebook without saying so. Plant one motif from the narrative arc. Keep it dry and specific."
+}

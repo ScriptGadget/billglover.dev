@@ -32,7 +32,7 @@ jobs:
         run: |
           git config user.name "artifact-agent"
           git config user.email "agent@billglover.dev"
-          git add posts/ index.html
+          git add posts/ index.html scripts/story-state.json
           git diff --staged --quiet || git commit -m "artifact: $(date -u +%Y-%m-%d)"
           git push
       - name: Build
