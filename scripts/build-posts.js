@@ -28,11 +28,11 @@ for (const file of mdFiles) {
       <span class="dot red"></span>
       <span class="dot yellow"></span>
       <span class="dot green"></span>
-      <span id="titlebar-path">bill@splodyspace: ~/blog/posts/${file}</span>
+      <span id="titlebar-path">bill@terminal-13: ~/blog/posts/${file}</span>
     </div>
     <div id="screen">
       <div class="prompt-line">
-        <span class="ps1">bill@splodyspace<span class="dim">:</span><span class="path">~/blog</span><span class="dollar">$</span></span>
+        <span class="ps1">bill@terminal-13<span class="dim">:</span><span class="path">~/blog</span><span class="dollar">$</span></span>
         <span class="cmd"> cat posts/${file}</span>
       </div>
       <article class="post-content">
@@ -40,7 +40,7 @@ for (const file of mdFiles) {
       </article>
       <hr class="rule" />
       <div class="prompt-line">
-        <span class="ps1">bill@splodyspace<span class="dim">:</span><span class="path">~/blog/posts</span><span class="dollar">$</span></span>
+        <span class="ps1">bill@terminal-13<span class="dim">:</span><span class="path">~/blog/posts</span><span class="dollar">$</span></span>
         <span class="cmd"> <a href="../index.html">cd ..</a></span>
       </div>
     </div>
@@ -49,7 +49,7 @@ for (const file of mdFiles) {
     <span class="status-left">
       <a href="../index.html" style="color:inherit">← back</a>
     </span>
-    <span class="status-right">splodyspace v0.1.0</span>
+    <span class="status-right">billglover.dev v0.1.0</span>
   </footer>
 </body>
 </html>`;
