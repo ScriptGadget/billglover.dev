@@ -6,12 +6,14 @@
   "scripts": {
     "build": "node scripts/build-posts.js && tsc",
     "build:posts": "node scripts/build-posts.js",
+    "generate": "node scripts/generate-post.js",
     "watch": "tsc --watch"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@anthropic-ai/sdk": "^0.98.0",
     "marked": "^18.0.4",
     "typescript": "^6.0.3"
   }
