@@ -26,6 +26,19 @@ const VOICE_RULES = `Strict voice rules — these are absolute:
 - The narrator is obsessed but never says so.
 - End without resolution. Things are ongoing or simply stop.`;
 
+async function callWithRetry(fn, retries = 3) {
+  for (let i = 0; i < retries; i++) {
+    try {
+      return await fn();
+    } catch (err) {
+      if (i === retries - 1) throw err;
+      const delay = Math.pow(4, i) * 2000; // 2s, 8s, 32s
+      console.error(`Attempt ${i + 1} failed: ${err.message}. Retrying in ${delay / 1000}s...`);
+      await new Promise(r => setTimeout(r, delay));
+    }
+  }
+}
+
 async function run() {
   const narrative = fs.readFileSync(NARRATIVE, 'utf8');
   const state     = JSON.parse(fs.readFileSync(STATE_FILE, 'utf8'));
@@ -36,8 +49,7 @@ async function run() {
 
   const plantedSoFar = state.planted_details.join('; ');
 
-  const msg = await client.messages.create({
-    model: 'claude-opus-4-7',
+  const msgParams = {
     max_tokens: 1500,
     system: `You are writing posts for a personal blog that is also a slow-burn mystery narrative. The narrator documents strange artifacts. The artifacts are interesting on their surface and also advance a hidden throughline.\n\n${VOICE_RULES}`,
     messages: [{
@@ -77,7 +89,15 @@ Then output a JSON object (no markdown, raw JSON) with these fields:
   "next_step": "one sentence: what the next post should do"
 }`,
     }],
-  });
+  };
+
+  let msg;
+  try {
+    msg = await callWithRetry(() => client.messages.create({ model: 'claude-opus-4-7', ...msgParams }));
+  } catch (primaryErr) {
+    console.error(`Primary model exhausted retries: ${primaryErr.message}. Trying fallback model...`);
+    msg = await client.messages.create({ model: 'claude-sonnet-4-6', ...msgParams });
+  }
 
   const full      = msg.content[0].text.trim();
   const splitIdx  = full.indexOf('---STATE---');

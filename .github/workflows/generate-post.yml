@@ -3,6 +3,7 @@ name: Generate Artifact Post
 on:
   schedule:
     - cron: '0 9 * * 1'  # Every Monday at 9am UTC
+    - cron: '0 9 * * 3'  # Wednesday fallback if Monday failed
   workflow_dispatch:
 
 permissions:
@@ -24,11 +25,25 @@ jobs:
           node-version: '20'
           cache: 'npm'
       - run: npm ci
+      - name: Check if post already exists this week
+        id: weekly-check
+        if: github.event_name == 'schedule'
+        run: |
+          DOW=$(date -u +%u)
+          OFFSET=$((DOW - 1))
+          THIS_MONDAY=$(date -u -d "${OFFSET} days ago" +%Y-%m-%d)
+          if git log --oneline --since="${THIS_MONDAY}" | grep -q "artifact:"; then
+            echo "skip=true" >> $GITHUB_OUTPUT
+          else
+            echo "skip=false" >> $GITHUB_OUTPUT
+          fi
       - name: Generate artifact post
+        if: steps.weekly-check.outputs.skip != 'true'
         run: node scripts/generate-post.js
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
       - name: Commit and push
+        if: steps.weekly-check.outputs.skip != 'true'
         run: |
           git config user.name "artifact-agent"
           git config user.email "agent@billglover.dev"
