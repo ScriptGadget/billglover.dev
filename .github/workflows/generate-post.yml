@@ -7,6 +7,12 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
 
 jobs:
   generate:
@@ -29,3 +35,19 @@ jobs:
           git add posts/ index.html
           git diff --staged --quiet || git commit -m "artifact: $(date -u +%Y-%m-%d)"
           git push
+      - name: Build
+        run: npm run build
+      - run: rm -rf node_modules
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: '.'
+
+  deploy:
+    needs: generate
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v5
