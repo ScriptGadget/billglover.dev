@@ -32,7 +32,9 @@
     "seven lines of code, counted by wraps",
     "the phrase 'count them again'",
     "KALENDA in a mirror URL at a Kraków university",
-    "a cached page with a gap where content should be"
+    "a cached page with a gap where content should be",
+    "undeciphered scripts as a recurring subject",
+    "Toadskin esolang and the bug in the loop instruction"
   ],
   "planted_details": [
     "notebook with unknown grammar rules in unknown handwriting",
@@ -53,5 +55,24 @@
     "what language is described",
     "what does working through it mean"
   ],
-  "next_step": "Introduce a conlang or linguistic artifact, plant left-handedness or backwards-working, keep the tone flat and avoid escalation."
+  "reserved_reveals": [
+    "narrator wrote Toadskin — to be mentioned in passing during Recognition arc",
+    "Toadskin bug in [ instruction triggers on exactly 7 stack ops — to be documented in Contamination arc",
+    "anonymous esolangs wiki commenter username KALENDA — to be found during Contamination arc",
+    "the 49-byte output (7 groups of 7) from the buggy program — plant late in Contamination",
+    "Linear A: scholar reported sensation of recognition reading it aloud — plant during Recognition",
+    "27 Rongorongo tablets = 3^3, Malbolge is base-3 — plant late, never comment on it",
+    "the 16 anomalous Proto-Elamite monumental inscriptions — plant early, return to later"
+  ],
+  "undeciphered_scripts_queue": [
+    "Vinča symbols — first: left-side-only marks motif",
+    "Proto-Elamite — 16 monumental inscriptions that don't fit",
+    "Cretan hieroglyphics — two parallel systems maintained by same scribes",
+    "Byblos syllabary — broken inscription with middle section missing",
+    "Linear A — you can pronounce it but not understand it",
+    "Rongorongo — boustrophedon, 27 tablets, 7 literate survivors",
+    "Indus script — 5000 inscriptions, no bilingual key, 250k sq mile distribution",
+    "Voynich manuscript — sold for 600 ducats, vanished, resurfaced 1912"
+  ],
+  "next_step": "Write a post about an undeciphered script — Vinča symbols are first in queue. Plant the left-side-only marks motif. Keep tone flat and documentary. Do not connect to the notebook."
 }
