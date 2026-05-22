@@ -1,0 +1,286 @@
+/* ── Reset ───────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+/* ── Color tokens ────────────────────────────────────── */
+:root {
+  --bg:      #0a0a0a;
+  --green:   #4ade80;
+  --cyan:    #22d3ee;
+  --yellow:  #fbbf24;
+  --magenta: #e879f9;
+  --blue:    #60a5fa;
+  --red:     #f87171;
+  --white:   #d1d5db;
+  --dim:     #374151;
+  --bright:  #f9fafb;
+}
+
+/* ── Base ────────────────────────────────────────────── */
+body {
+  font-family: ui-monospace, 'Cascadia Code', 'Fira Code', 'Courier New', monospace;
+  font-size: 14px;
+  line-height: 1.6;
+  background: var(--bg);
+  color: var(--green);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+a { color: var(--cyan); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* ── Terminal window ─────────────────────────────────── */
+#terminal {
+  flex: 1;
+  max-width: 920px;
+  width: 100%;
+  margin: 1.5rem auto;
+  border: 1px solid var(--dim);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* Window chrome */
+#titlebar {
+  background: #111827;
+  padding: 0.45rem 0.9rem;
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  border-bottom: 1px solid var(--dim);
+}
+
+.dot {
+  width: 13px; height: 13px;
+  border-radius: 50%;
+}
+.dot.red    { background: #ff5f57; }
+.dot.yellow { background: #febc2e; }
+.dot.green  { background: #28c840; }
+
+#titlebar-path {
+  flex: 1;
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--white);
+  opacity: 0.7;
+}
+
+/* Screen */
+#screen { padding: 1.5rem 2rem; }
+
+/* ── ASCII logo ──────────────────────────────────────── */
+#logo {
+  /* Scale with viewport so it never causes horizontal scroll */
+  font-size: clamp(6px, 1.15vw, 13px);
+  line-height: 1.15;
+  color: var(--green);
+  cursor: pointer;
+  user-select: none;
+  transition: color 0.35s ease;
+  margin-bottom: 0.6rem;
+  white-space: pre;
+  overflow-x: auto;
+}
+
+.tagline {
+  font-size: 0.9rem;
+  margin-bottom: 1.75rem;
+}
+
+/* ── Prompt line ─────────────────────────────────────── */
+.prompt-line {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0;
+  margin-bottom: 0.2rem;
+}
+
+/* PS1: user@host:path$ */
+.ps1 .dim    { color: var(--dim); }
+.ps1 .path   { color: var(--blue); }
+.ps1 .dollar { color: var(--magenta); padding-right: 0.35rem; }
+
+.cmd { color: var(--white); }
+
+/* ── Navigation ──────────────────────────────────────── */
+.nav-links {
+  padding: 0.3rem 0 0.9rem 1.5rem;
+  display: flex;
+  gap: 1.75rem;
+  flex-wrap: wrap;
+}
+
+.nav-item { color: var(--cyan); }
+
+/* ── Section divider ─────────────────────────────────── */
+.rule {
+  border: none;
+  border-top: 1px solid var(--dim);
+  margin: 1rem 0;
+}
+
+/* ── ls output ───────────────────────────────────────── */
+.ls-output {
+  padding: 0.2rem 0 1rem 1.5rem;
+}
+
+.ls-meta-row { font-size: 0.85em; margin-bottom: 0.1rem; }
+
+.ls-entry {
+  display: grid;
+  grid-template-columns: 12ch 13ch 5ch 7ch 1fr;
+  gap: 0.4rem;
+  align-items: baseline;
+}
+
+.ls-name { color: var(--cyan); }
+
+/* ── cat output ──────────────────────────────────────── */
+.cat-output {
+  padding: 0.2rem 0 1rem 1.5rem;
+  color: var(--bright);
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+}
+
+/* ── Interactive fake prompt ─────────────────────────── */
+#prompt-area { margin-top: 0.5rem; }
+
+#cursor {
+  color: var(--green);
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  50% { opacity: 0; }
+}
+
+#cmd-output {
+  padding: 0.2rem 0 0 1.5rem;
+  color: var(--yellow);
+  min-height: 1.4em;
+  white-space: pre;
+}
+
+/* ── Utility colors ──────────────────────────────────── */
+.dim     { color: var(--dim); }
+.yellow  { color: var(--yellow); }
+.cyan    { color: var(--cyan); }
+.green   { color: var(--green); }
+.magenta { color: var(--magenta); }
+.blue    { color: var(--blue); }
+.red     { color: var(--red); }
+
+/* ── Status bar ──────────────────────────────────────── */
+#statusbar {
+  background: var(--green);
+  color: #0a0a0a;
+  font-family: inherit;
+  font-size: 0.8rem;
+  padding: 0.25rem 1.25rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+kbd {
+  background: #0a0a0a;
+  color: var(--green);
+  border-radius: 3px;
+  padding: 0 0.35rem;
+  font-family: inherit;
+  font-size: 0.75rem;
+}
+
+.sep { margin: 0 0.5rem; opacity: 0.4; }
+.status-right { opacity: 0.6; }
+
+/* ── Post content (rendered markdown) ───────────────── */
+.post-content {
+  padding: 0.5rem 0 1.5rem 1.5rem;
+  color: var(--bright);
+  max-width: 68ch;
+}
+
+.post-content h1,
+.post-content h2,
+.post-content h3 {
+  color: var(--green);
+  margin: 1.5rem 0 0.5rem;
+}
+
+.post-content h1 { font-size: 1.2rem; }
+.post-content h2 { font-size: 1.05rem; }
+.post-content h3 { font-size: 1rem; }
+
+.post-content p    { margin-bottom: 0.9rem; }
+
+.post-content code {
+  color: var(--cyan);
+  background: #111827;
+  padding: 0.1em 0.35em;
+  border-radius: 3px;
+  font-size: 0.95em;
+}
+
+.post-content pre {
+  background: #111827;
+  border-left: 3px solid var(--green);
+  padding: 0.75rem 1rem;
+  overflow-x: auto;
+  margin: 0.75rem 0;
+  border-radius: 0 4px 4px 0;
+}
+
+.post-content pre code {
+  background: none;
+  padding: 0;
+  color: var(--green);
+}
+
+.post-content ul,
+.post-content ol {
+  padding-left: 1.5rem;
+  margin-bottom: 0.9rem;
+}
+
+.post-content li    { margin-bottom: 0.2rem; }
+
+.post-content blockquote {
+  border-left: 3px solid var(--yellow);
+  padding-left: 1rem;
+  color: var(--yellow);
+  margin: 0.75rem 0;
+  opacity: 0.85;
+}
+
+.post-content strong { color: var(--bright); }
+.post-content em     { color: var(--white); font-style: italic; }
+
+.post-content hr {
+  border: none;
+  border-top: 1px solid var(--dim);
+  margin: 1.5rem 0;
+}
+
+/* ── Matrix rain canvas (injected by JS) ─────────────── */
+#matrix {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  pointer-events: none;
+}
+
+/* ── Responsive ──────────────────────────────────────── */
+@media (max-width: 600px) {
+  #terminal { margin: 0; border-radius: 0; border-left: none; border-right: none; }
+  #screen   { padding: 1rem; }
+  .ls-entry { grid-template-columns: 7ch 1fr; }
+  .ls-perm, .ls-owner, .ls-size { display: none; }
+}

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>bill glover // blog</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!--
+    Layout: fake terminal window containing the entire blog.
+    Sections are presented as shell command output for TUI aesthetics.
+  -->
+  <div id="terminal">
+
+    <!-- macOS-style window chrome -->
+    <div id="titlebar" aria-hidden="true">
+      <span class="dot red"></span>
+      <span class="dot yellow"></span>
+      <span class="dot green"></span>
+      <span id="titlebar-path">bill@splodyspace: ~/blog</span>
+    </div>
+
+    <!-- Main screen area -->
+    <div id="screen">
+
+      <!-- ── Header / Logo ───────────────────────────── -->
+      <header id="home">
+        <!--
+          ASCII art for "BILL GLOVER" using Unicode block + box-drawing chars.
+          Click to cycle accent color. aria-label provides accessible text.
+        -->
+        <pre id="logo" role="img" aria-label="Bill Glover" title="click to change color">
+██████╗ ██╗██╗     ██╗        ██████╗ ██╗      ██████╗ ██╗   ██╗███████╗██████╗
+██╔══██╗██║██║     ██║       ██╔════╝ ██║     ██╔═══██╗██║   ██║██╔════╝██╔══██╗
+██████╔╝██║██║     ██║       ██║  ███╗██║     ██║   ██║██║   ██║█████╗  ██████╔╝
+██╔══██╗██║██║     ██║       ██║   ██║██║     ██║   ██║╚██╗ ██╔╝██╔══╝  ██╔══██╗
+██████╔╝██║███████╗███████╗  ╚██████╔╝███████╗╚██████╔╝ ╚████╔╝ ███████╗██║  ██╗
+╚═════╝ ╚═╝╚══════╝╚══════╝   ╚═════╝ ╚══════╝ ╚═════╝   ╚═══╝  ╚══════╝╚═╝  ╚═╝</pre>
+        <p class="dim tagline">// code, words, and the spaces between</p>
+      </header>
+
+      <!-- ── Navigation ─────────────────────────────── -->
+      <nav aria-label="Site navigation">
+        <div class="prompt-line">
+          <span class="ps1">bill@splodyspace<span class="dim">:</span><span class="path">~/blog</span><span class="dollar">$</span></span>
+          <span class="cmd"> cat menu.txt</span>
+        </div>
+        <div class="nav-links">
+          <a href="#home"  class="nav-item">[1] home</a>
+          <a href="#posts" class="nav-item">[2] posts</a>
+          <a href="#about" class="nav-item">[3] about</a>
+        </div>
+      </nav>
+
+      <hr class="rule" />
+
+      <!-- ── Posts – styled as `ls -lt` output ──────── -->
+      <section id="posts">
+        <div class="prompt-line">
+          <span class="ps1">bill@splodyspace<span class="dim">:</span><span class="path">~/blog</span><span class="dollar">$</span></span>
+          <span class="cmd"> ls -lt posts/</span>
+        </div>
+
+        <div class="ls-output" role="list">
+          <div class="ls-meta-row dim" aria-hidden="true">total 1</div>
+
+          <!-- Each post is one ls-entry row -->
+          <div class="ls-entry" role="listitem">
+            <span class="ls-perm dim" aria-hidden="true">-rw-r--r--</span>
+            <span class="ls-owner dim" aria-hidden="true">bill  staff</span>
+            <span class="ls-size dim" aria-hidden="true">1337</span>
+            <span class="ls-date yellow">May 20</span>
+            <a href="posts/on-beginning.html" class="ls-name">on-beginning.md</a>
+          </div>
+        </div>
+      </section>
+
+      <hr class="rule" />
+
+      <!-- ── About – styled as `cat about.txt` ──────── -->
+      <section id="about">
+        <div class="prompt-line">
+          <span class="ps1">bill@splodyspace<span class="dim">:</span><span class="path">~/blog</span><span class="dollar">$</span></span>
+          <span class="cmd"> cat about.txt</span>
+        </div>
+
+        <div class="cat-output">
+          <p>Hi. I'm Bill Glover. I write about code, the internet,</p>
+          <p>and whatever else seems worth saying.</p>
+          <p class="dim"># find me: <a href="mailto:bill.the.writer@gmail.com">bill.the.writer@gmail.com</a></p>
+        </div>
+      </section>
+
+      <hr class="rule" />
+
+      <!-- ── Interactive fake prompt ─────────────────── -->
+      <!--
+        Captures global keystrokes. Try: help, whoami, ls, clear, exit.
+        Easter egg: ↑↑↓↓←→←→BA
+      -->
+      <div id="prompt-area">
+        <div class="prompt-line">
+          <span class="ps1">bill@splodyspace<span class="dim">:</span><span class="path">~/blog</span><span class="dollar">$</span></span>
+          <span id="user-input" aria-live="polite"></span><span id="cursor" aria-hidden="true">█</span>
+        </div>
+        <div id="cmd-output" role="status" aria-live="polite"></div>
+      </div>
+
+    </div><!-- /#screen -->
+  </div><!-- /#terminal -->
+
+  <!-- ── Status bar ──────────────────────────────── -->
+  <footer id="statusbar" aria-hidden="true">
+    <span class="status-left">
+      <kbd>click logo</kbd> color
+      <span class="sep">│</span>
+      <kbd>↑↑↓↓←→←→BA</kbd> ???
+      <span class="sep">│</span>
+      <kbd>?</kbd> help
+    </span>
+    <span class="status-right">billglover.dev v0.1.0</span>
+  </footer>
+
+  <script src="dist/main.js"></script>
+</body>
+</html>
