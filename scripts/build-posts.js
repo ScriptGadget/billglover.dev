@@ -1,19 +1,41 @@
-// Converts posts/*.md → posts/*.html, each wrapped in the terminal chrome.
+// Converts posts/*.md → posts/*.html and generates rss.xml.
 const fs   = require('fs');
 const path = require('path');
+const { execSync } = require('child_process');
 const { marked } = require('marked');
 
-const POSTS_DIR = path.join(__dirname, '..', 'posts');
+const ROOT      = path.join(__dirname, '..');
+const POSTS_DIR = path.join(ROOT, 'posts');
+const BASE_URL  = 'https://billglover.dev';
+
+function gitDate(filepath) {
+  try {
+    const out = execSync(`git log --follow --format="%aI" -- "${filepath}"`, { encoding: 'utf8' }).trim();
+    const lines = out.split('\n').filter(Boolean);
+    return lines[lines.length - 1] || new Date().toISOString();
+  } catch {
+    return new Date().toISOString();
+  }
+}
 
 const mdFiles = fs.readdirSync(POSTS_DIR).filter(f => f.endsWith('.md'));
 
-for (const file of mdFiles) {
-  const slug    = file.replace('.md', '');
-  const raw     = fs.readFileSync(path.join(POSTS_DIR, file), 'utf8');
-  const body    = marked.parse(raw);
-  const titleM  = raw.match(/^#\s+(.+)$/m);
-  const title   = titleM ? titleM[1] : slug;
+const posts = mdFiles.map(file => {
+  const slug   = file.replace('.md', '');
+  const raw    = fs.readFileSync(path.join(POSTS_DIR, file), 'utf8');
+  const body   = marked.parse(raw);
+  const titleM = raw.match(/^#\s+(.+)$/m);
+  const title  = titleM ? titleM[1] : slug;
+  const date   = gitDate(path.join(POSTS_DIR, file));
+  return { file, slug, raw, body, title, date };
+});
 
+// Newest first
+posts.sort((a, b) => new Date(b.date) - new Date(a.date));
+
+// ── HTML pages ────────────────────────────────────────────────────────────────
+
+for (const { file, slug, body, title } of posts) {
   const html = `<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -21,6 +43,7 @@ for (const file of mdFiles) {
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>${title} // bill glover</title>
   <link rel="stylesheet" href="../styles.css" />
+  <link rel="alternate" type="application/rss+xml" title="bill glover" href="${BASE_URL}/rss.xml" />
 </head>
 <body>
   <div id="terminal">
@@ -58,4 +81,34 @@ for (const file of mdFiles) {
   console.log(`  built: posts/${slug}.html`);
 }
 
-console.log(`\n  ${mdFiles.length} post(s) built.`);
+// ── RSS feed ──────────────────────────────────────────────────────────────────
+
+function escapeXml(str) {
+  return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+}
+
+const items = posts.map(({ slug, title, body, date }) => `
+  <item>
+    <title>${escapeXml(title)}</title>
+    <link>${BASE_URL}/posts/${slug}.html</link>
+    <guid isPermaLink="true">${BASE_URL}/posts/${slug}.html</guid>
+    <pubDate>${new Date(date).toUTCString()}</pubDate>
+    <description><![CDATA[${body}]]></description>
+  </item>`).join('');
+
+const rss = `<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>bill glover</title>
+    <link>${BASE_URL}</link>
+    <description>code, words, and the spaces between</description>
+    <language>en</language>
+    <atom:link href="${BASE_URL}/rss.xml" rel="self" type="application/rss+xml" />
+${items}
+  </channel>
+</rss>`;
+
+fs.writeFileSync(path.join(ROOT, 'rss.xml'), rss);
+console.log(`  built: rss.xml`);
+
+console.log(`\n  ${posts.length} post(s) built.`);
