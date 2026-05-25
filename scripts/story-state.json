@@ -2,6 +2,17 @@
   "arc_position": "discovery",
   "posts": [
     {
+      "slug": "vin-a-marks-on-the-left-side",
+      "title": "vinča marks on the left side",
+      "date": "2026-05-25",
+      "summary": "Narrator documents Vinča symbols, focusing on the left-side-only marks on certain figurines and counting seven lateralized examples.",
+      "planted": [
+        "Vinča marks appear only on the left side of certain figurines",
+        "narrator counted seven lateralized figurines, then counted again",
+        "base marks differ from body marks, unaddressed in literature"
+      ]
+    },
+    {
       "slug": "malbolge-and-the-seven-line-program",
       "title": "malbolge and the seven-line program",
       "date": "2026-05-22",
@@ -42,13 +53,18 @@
     "seven lines of code, counted by wraps",
     "the phrase 'count them again'",
     "KALENDA in a mirror URL at a Kraków university",
-    "a cached page with a gap where content should be"
+    "a cached page with a gap where content should be",
+    "Vinča marks appear only on the left side of certain figurines",
+    "narrator counted seven lateralized figurines, then counted again",
+    "base marks differ from body marks, unaddressed in literature"
   ],
   "motifs_used": [
     "the number 7",
     "KALENDA",
     "count them again",
-    "gaps (cached page missing a code block)"
+    "gaps (cached page missing a code block)",
+    "left-handedness / things on one side",
+    "gaps (unaddressed in the literature)"
   ],
   "open_questions": [
     "whose notebook is it",
@@ -74,5 +90,5 @@
     "Indus script — 5000 inscriptions, no bilingual key, 250k sq mile distribution",
     "Voynich manuscript — sold for 600 ducats, vanished, resurfaced 1912"
   ],
-  "next_step": "Write a post about an undeciphered script — Vinča symbols are first in queue. Plant the left-side-only marks motif. Keep tone flat and documentary. Do not connect to the notebook."
+  "next_step": "Return to an esolang or a found-transmission artifact, possibly Toadskin or a conlang fragment, keeping the notebook offstage."
 }
