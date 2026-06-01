@@ -2,6 +2,19 @@
   "arc_position": "discovery",
   "posts": [
     {
+      "slug": "toadskin-and-the-loop-that-does-not-check",
+      "title": "toadskin and the loop that does not check",
+      "date": "2026-06-01",
+      "summary": "Narrator documents Toadskin, the esolang they wrote, its loop bug at seven stack operations, and a five-line program contributed by KALENDA that produces an invariant 49-byte output.",
+      "planted": [
+        "Toadskin written by narrator, mentioned in passing",
+        "loop bug triggers at exactly seven stack operations",
+        "KALENDA as username on esolangs wiki, single edit, 2009-03-14",
+        "49-byte output as seven groups of seven, invariant across machines",
+        "counter variable named 'kal' in 2012 version, 'i' in 2011 version"
+      ]
+    },
+    {
       "slug": "vin-a-marks-on-the-left-side",
       "title": "vinča marks on the left side",
       "date": "2026-05-25",
@@ -56,7 +69,12 @@
     "a cached page with a gap where content should be",
     "Vinča marks appear only on the left side of certain figurines",
     "narrator counted seven lateralized figurines, then counted again",
-    "base marks differ from body marks, unaddressed in literature"
+    "base marks differ from body marks, unaddressed in literature",
+    "Toadskin written by narrator, mentioned in passing",
+    "loop bug triggers at exactly seven stack operations",
+    "KALENDA as username on esolangs wiki, single edit, 2009-03-14",
+    "49-byte output as seven groups of seven, invariant across machines",
+    "counter variable named 'kal' in 2012 version, 'i' in 2011 version"
   ],
   "motifs_used": [
     "the number 7",
@@ -64,7 +82,8 @@
     "count them again",
     "gaps (cached page missing a code block)",
     "left-handedness / things on one side",
-    "gaps (unaddressed in the literature)"
+    "gaps (unaddressed in the literature)",
+    "gaps (the reverted wiki edit, the unopened 2010 drive)"
   ],
   "open_questions": [
     "whose notebook is it",
@@ -90,5 +109,5 @@
     "Indus script — 5000 inscriptions, no bilingual key, 250k sq mile distribution",
     "Voynich manuscript — sold for 600 ducats, vanished, resurfaced 1912"
   ],
-  "next_step": "Return to an esolang or a found-transmission artifact, possibly Toadskin or a conlang fragment, keeping the notebook offstage."
+  "next_step": "Return to an undeciphered script, likely Proto-Elamite with its 16 monumental inscriptions, or a found transmission, keeping Toadskin offstage."
 }
