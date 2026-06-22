@@ -2,6 +2,16 @@
   "arc_position": "discovery",
   "posts": [
     {
+      "slug": "cretan-hieroglyphics-and-the-parallel-desk",
+      "title": "cretan hieroglyphics and the parallel desk",
+      "date": "2026-06-22",
+      "summary": "Narrator documents Cretan hieroglyphics and Linear A coexisting in the same workshops at Quartier Mu, focuses on a four-sided prism with a deliberately blank face and counts seven mixed-script deposits.",
+      "planted": [
+        "CHIC #292 four-sided prism with one face deliberately left blank, uncommented in the catalogue",
+        "sign 019 the left-hand sign appears 38 times, 31 oriented as left hand, 7 reversed"
+      ]
+    },
+    {
       "slug": "the-conlang-on-shortwave-4625-khz",
       "title": "the conlang on shortwave 4625 kHz",
       "date": "2026-06-15",
@@ -100,7 +110,9 @@
     "M-346 broken in antiquity along a line removing the central portion, a clean break with no join",
     "recurring trisyllable /ka.lɛn.da/ in the transmission",
     "Kraków university netblock as upload source",
-    "groups of seven and sets of seven, with 1.4-second uniform 'breaths'"
+    "groups of seven and sets of seven, with 1.4-second uniform 'breaths'",
+    "CHIC #292 four-sided prism with one face deliberately left blank, uncommented in the catalogue",
+    "sign 019 the left-hand sign appears 38 times, 31 oriented as left hand, 7 reversed"
   ],
   "motifs_used": [
     "the number 7",
@@ -112,7 +124,8 @@
     "gaps (the reverted wiki edit, the unopened 2010 drive)",
     "the number 7 (multiple of 7 with remainder of 2)",
     "gaps (the missing middle of M-346, the narrator's growing list of breaks)",
-    "gaps (the missing Priyom log entry, the carrier hold)"
+    "gaps (the missing Priyom log entry, the carrier hold)",
+    "gaps (the unexplained blank face, the abraded signs on CHIC #294)"
   ],
   "open_questions": [
     "whose notebook is it",
@@ -138,5 +151,5 @@
     "Indus script — 5000 inscriptions, no bilingual key, 250k sq mile distribution",
     "Voynich manuscript — sold for 600 ducats, vanished, resurfaced 1912"
   ],
-  "next_step": "Return to an undeciphered script, possibly Cretan hieroglyphics or Byblos, and plant a parallel-systems or broken-stone detail while letting the transmission sit unmentioned."
+  "next_step": "Return to the notebook or to Toadskin/Malbolge territory, or pick up the shortwave transmission thread, planting a left/reverse or count-again detail."
 }
