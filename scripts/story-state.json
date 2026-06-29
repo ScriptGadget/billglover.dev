@@ -2,6 +2,16 @@
   "arc_position": "discovery",
   "posts": [
     {
+      "slug": "the-byblos-syllabary-and-the-missing-middle",
+      "title": "the byblos syllabary and the missing middle",
+      "date": "2026-06-29",
+      "summary": "Narrator documents the 14 Byblos syllabary inscriptions, focusing on Stele c's missing middle and bronze tablet a's damaged left edge, adding both to a growing list of gaps.",
+      "planted": [
+        "Stele c broken in antiquity with the central 11-13 signs missing, top and bottom recovered from different layers",
+        "bronze tablet a damaged along its full left edge during 1930 unrolling, every line abraded on one side"
+      ]
+    },
+    {
       "slug": "cretan-hieroglyphics-and-the-parallel-desk",
       "title": "cretan hieroglyphics and the parallel desk",
       "date": "2026-06-22",
@@ -112,7 +122,9 @@
     "Kraków university netblock as upload source",
     "groups of seven and sets of seven, with 1.4-second uniform 'breaths'",
     "CHIC #292 four-sided prism with one face deliberately left blank, uncommented in the catalogue",
-    "sign 019 the left-hand sign appears 38 times, 31 oriented as left hand, 7 reversed"
+    "sign 019 the left-hand sign appears 38 times, 31 oriented as left hand, 7 reversed",
+    "Stele c broken in antiquity with the central 11-13 signs missing, top and bottom recovered from different layers",
+    "bronze tablet a damaged along its full left edge during 1930 unrolling, every line abraded on one side"
   ],
   "motifs_used": [
     "the number 7",
@@ -125,7 +137,9 @@
     "the number 7 (multiple of 7 with remainder of 2)",
     "gaps (the missing middle of M-346, the narrator's growing list of breaks)",
     "gaps (the missing Priyom log entry, the carrier hold)",
-    "gaps (the unexplained blank face, the abraded signs on CHIC #294)"
+    "gaps (the unexplained blank face, the abraded signs on CHIC #294)",
+    "gaps",
+    "the number 7 (14 = 2x7)"
   ],
   "open_questions": [
     "whose notebook is it",
@@ -151,5 +165,5 @@
     "Indus script — 5000 inscriptions, no bilingual key, 250k sq mile distribution",
     "Voynich manuscript — sold for 600 ducats, vanished, resurfaced 1912"
   ],
-  "next_step": "Return to the notebook or to Toadskin/Malbolge territory, or pick up the shortwave transmission thread, planting a left/reverse or count-again detail."
+  "next_step": "Return to esolang territory (Brainfuck or back to the Toadskin output as a hex dump) or pick up the notebook-adjacent thread with a left/reverse detail."
 }
