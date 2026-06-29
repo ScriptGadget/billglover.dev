@@ -50,7 +50,7 @@ async function run() {
   const plantedSoFar = state.planted_details.join('; ');
 
   const msgParams = {
-    max_tokens: 1500,
+    max_tokens: 4096,
     system: `You are writing posts for a personal blog that is also a slow-burn mystery narrative. The narrator documents strange artifacts. The artifacts are interesting on their surface and also advance a hidden throughline.\n\n${VOICE_RULES}`,
     messages: [{
       role: 'user',
