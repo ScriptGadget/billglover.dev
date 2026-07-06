@@ -2,6 +2,17 @@
   "arc_position": "discovery",
   "posts": [
     {
+      "slug": "the-toadskin-output-as-hex",
+      "title": "the toadskin output as hex",
+      "date": "2026-07-06",
+      "summary": "Narrator dumps the 49-byte Toadskin/KALENDA output as hex, arranges it in a 7x7 grid, notes the three-byte cycle with a shift, the constant diagonals, and that there are sixteen BEL bytes matching the Proto-Elamite monument count.",
+      "planted": [
+        "49-byte output arranges as a 7x7 grid with constant diagonals and four-corner-plus-center symmetry",
+        "sixteen 0x07 bytes in the output matching the sixteen Proto-Elamite monuments",
+        "narrator uses the phrase 'garbage-file problem' once without explanation"
+      ]
+    },
+    {
       "slug": "the-byblos-syllabary-and-the-missing-middle",
       "title": "the byblos syllabary and the missing middle",
       "date": "2026-06-29",
@@ -124,7 +135,10 @@
     "CHIC #292 four-sided prism with one face deliberately left blank, uncommented in the catalogue",
     "sign 019 the left-hand sign appears 38 times, 31 oriented as left hand, 7 reversed",
     "Stele c broken in antiquity with the central 11-13 signs missing, top and bottom recovered from different layers",
-    "bronze tablet a damaged along its full left edge during 1930 unrolling, every line abraded on one side"
+    "bronze tablet a damaged along its full left edge during 1930 unrolling, every line abraded on one side",
+    "49-byte output arranges as a 7x7 grid with constant diagonals and four-corner-plus-center symmetry",
+    "sixteen 0x07 bytes in the output matching the sixteen Proto-Elamite monuments",
+    "narrator uses the phrase 'garbage-file problem' once without explanation"
   ],
   "motifs_used": [
     "the number 7",
@@ -139,7 +153,9 @@
     "gaps (the missing Priyom log entry, the carrier hold)",
     "gaps (the unexplained blank face, the abraded signs on CHIC #294)",
     "gaps",
-    "the number 7 (14 = 2x7)"
+    "the number 7 (14 = 2x7)",
+    "left-handedness / things that work backwards (LIFO, 180-degree rotation)",
+    "gaps (deleted wiki comment still gone from live page)"
   ],
   "open_questions": [
     "whose notebook is it",
@@ -165,5 +181,5 @@
     "Indus script — 5000 inscriptions, no bilingual key, 250k sq mile distribution",
     "Voynich manuscript — sold for 600 ducats, vanished, resurfaced 1912"
   ],
-  "next_step": "Return to esolang territory (Brainfuck or back to the Toadskin output as a hex dump) or pick up the notebook-adjacent thread with a left/reverse detail."
+  "next_step": "Return to notebook-adjacent territory or an undeciphered script not yet used recently (Rongorongo, Indus, Voynich, Linear A), keeping the number-7 and left/reverse motifs quiet for a post."
 }
