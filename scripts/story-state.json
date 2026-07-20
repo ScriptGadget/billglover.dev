@@ -2,6 +2,17 @@
   "arc_position": "discovery",
   "posts": [
     {
+      "slug": "the-indus-seals-and-the-twenty-seven-sign-outlier",
+      "title": "the indus seals and the twenty-seven-sign outlier",
+      "date": "2026-07-20",
+      "summary": "Narrator documents the Indus script and a copper tablet DK-6847 with 27 signs arranged boustrophedon in three rows of nine, noting a discrepancy between Mahadevan's and Parpola's sign counts and the tablet's missing location.",
+      "planted": [
+        "DK-6847 has 27 signs in three rows of nine, boustrophedon",
+        "Parpola's catalogue gives 26 signs, Mahadevan's gives 27, and the current physical object is missing from the shelf",
+        "the 'endless knot' sign at exact center, position 14 of 27"
+      ]
+    },
+    {
       "slug": "rongorongo-and-the-staff-that-does-not-match",
       "title": "rongorongo and the staff that does not match",
       "date": "2026-07-13",
@@ -154,7 +165,10 @@
     "Santiago Staff has 14 lines of text (2x7)",
     "Staff signs do not match the tablet corpus, and the Staff is the one object with signs found nowhere else",
     "seven literate survivors, all dead within a decade",
-    "Metoro's readings varied between days on the same tablet"
+    "Metoro's readings varied between days on the same tablet",
+    "DK-6847 has 27 signs in three rows of nine, boustrophedon",
+    "Parpola's catalogue gives 26 signs, Mahadevan's gives 27, and the current physical object is missing from the shelf",
+    "the 'endless knot' sign at exact center, position 14 of 27"
   ],
   "motifs_used": [
     "the number 7",
@@ -173,7 +187,11 @@
     "left-handedness / things that work backwards (LIFO, 180-degree rotation)",
     "gaps (deleted wiki comment still gone from live page)",
     "left-handedness / things that work backwards (180-degree rotation, unspecified hand)",
-    "gaps (depopulation, the footnote that doesn't clarify)"
+    "gaps (depopulation, the footnote that doesn't clarify)",
+    "the number 27",
+    "the number 7 (implied via 14 = 2x7 center position)",
+    "gaps (the missing tablet, the dropped sign, the disagreeing catalogues)",
+    "left-handedness / things that work backwards (boustrophedon on a matchbook-sized tablet)"
   ],
   "open_questions": [
     "whose notebook is it",
@@ -199,5 +217,5 @@
     "Indus script — 5000 inscriptions, no bilingual key, 250k sq mile distribution",
     "Voynich manuscript — sold for 600 ducats, vanished, resurfaced 1912"
   ],
-  "next_step": "Return to notebook-adjacent territory or take up Indus, Voynich, or Linear A; consider a post that quietly introduces 27 as a motif or revisits the Toadskin output from a different angle."
+  "next_step": "Return to the notebook, Toadskin output, or Linear A; consider revisiting the 49-byte grid from a new angle or letting a KALENDA thread resurface."
 }
