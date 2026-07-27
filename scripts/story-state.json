@@ -2,6 +2,17 @@
   "arc_position": "discovery",
   "posts": [
     {
+      "slug": "linear-a-and-the-seven-year-reading",
+      "title": "linear a and the seven-year reading",
+      "date": "2026-07-27",
+      "summary": "Narrator documents Linear A tablet HT 88 and the seven-year work of a scholar named Miriam Ellerbe, quoting her 1968 paragraph about a sensation of recognition on repeated recitation, and notes reading it aloud themselves.",
+      "planted": [
+        "Miriam Ellerbe spent seven years on HT 88 and reported a sensation of recognition on reading it aloud",
+        "HT 88 has fourteen lines (two groups of seven) and is broken at the right removing signs from lines 3 through 7",
+        "line 9 trisyllable in Ellerbe's reading is ka-nu-ti, close to but not KALENDA"
+      ]
+    },
+    {
       "slug": "the-indus-seals-and-the-twenty-seven-sign-outlier",
       "title": "the indus seals and the twenty-seven-sign outlier",
       "date": "2026-07-20",
@@ -168,7 +179,10 @@
     "Metoro's readings varied between days on the same tablet",
     "DK-6847 has 27 signs in three rows of nine, boustrophedon",
     "Parpola's catalogue gives 26 signs, Mahadevan's gives 27, and the current physical object is missing from the shelf",
-    "the 'endless knot' sign at exact center, position 14 of 27"
+    "the 'endless knot' sign at exact center, position 14 of 27",
+    "Miriam Ellerbe spent seven years on HT 88 and reported a sensation of recognition on reading it aloud",
+    "HT 88 has fourteen lines (two groups of seven) and is broken at the right removing signs from lines 3 through 7",
+    "line 9 trisyllable in Ellerbe's reading is ka-nu-ti, close to but not KALENDA"
   ],
   "motifs_used": [
     "the number 7",
@@ -191,7 +205,9 @@
     "the number 27",
     "the number 7 (implied via 14 = 2x7 center position)",
     "gaps (the missing tablet, the dropped sign, the disagreeing catalogues)",
-    "left-handedness / things that work backwards (boustrophedon on a matchbook-sized tablet)"
+    "left-handedness / things that work backwards (boustrophedon on a matchbook-sized tablet)",
+    "gaps (the broken right end of HT 88, the missing signs in lines 3-7, the unfootnoted paragraph)",
+    "KALENDA (near-miss variant ka-nu-ti)"
   ],
   "open_questions": [
     "whose notebook is it",
@@ -217,5 +233,5 @@
     "Indus script — 5000 inscriptions, no bilingual key, 250k sq mile distribution",
     "Voynich manuscript — sold for 600 ducats, vanished, resurfaced 1912"
   ],
-  "next_step": "Return to the notebook, Toadskin output, or Linear A; consider revisiting the 49-byte grid from a new angle or letting a KALENDA thread resurface."
+  "next_step": "Return to the notebook or Toadskin, or introduce a new script; consider a post where the narrator documents an artifact they made rather than found, or lets the ka-nu-ti / KALENDA proximity sit unremarked while another gap surfaces."
 }
