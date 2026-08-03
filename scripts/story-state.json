@@ -2,6 +2,17 @@
   "arc_position": "discovery",
   "posts": [
     {
+      "slug": "the-notebook-i-did-not-open-until-july",
+      "title": "the notebook I did not open until july",
+      "date": "2026-08-03",
+      "summary": "Narrator reviews their operator log of working sessions and discovers they have systematically skipped pages 8, 16, and 24 of the March notebook without noticing, each of which bears a unique bracket-and-dot symbol.",
+      "planted": [
+        "operator log started March 14, 2026 (matching KALENDA wiki edit date 2009-03-14)",
+        "seven distinct log-words across 84 entries, duration 49 appearing nine times",
+        "pages 8, 16, 24 skipped in a pattern of eight, each bearing an unfamiliar bracket-with-dot symbol"
+      ]
+    },
+    {
       "slug": "linear-a-and-the-seven-year-reading",
       "title": "linear a and the seven-year reading",
       "date": "2026-07-27",
@@ -182,7 +193,10 @@
     "the 'endless knot' sign at exact center, position 14 of 27",
     "Miriam Ellerbe spent seven years on HT 88 and reported a sensation of recognition on reading it aloud",
     "HT 88 has fourteen lines (two groups of seven) and is broken at the right removing signs from lines 3 through 7",
-    "line 9 trisyllable in Ellerbe's reading is ka-nu-ti, close to but not KALENDA"
+    "line 9 trisyllable in Ellerbe's reading is ka-nu-ti, close to but not KALENDA",
+    "operator log started March 14, 2026 (matching KALENDA wiki edit date 2009-03-14)",
+    "seven distinct log-words across 84 entries, duration 49 appearing nine times",
+    "pages 8, 16, 24 skipped in a pattern of eight, each bearing an unfamiliar bracket-with-dot symbol"
   ],
   "motifs_used": [
     "the number 7",
@@ -207,7 +221,9 @@
     "gaps (the missing tablet, the dropped sign, the disagreeing catalogues)",
     "left-handedness / things that work backwards (boustrophedon on a matchbook-sized tablet)",
     "gaps (the broken right end of HT 88, the missing signs in lines 3-7, the unfootnoted paragraph)",
-    "KALENDA (near-miss variant ka-nu-ti)"
+    "KALENDA (near-miss variant ka-nu-ti)",
+    "gaps (the three skipped pages, the unentered log line, the missing April 2 memory)",
+    "left-handedness / things that work backwards (wrong hand as a log-word)"
   ],
   "open_questions": [
     "whose notebook is it",
@@ -233,5 +249,5 @@
     "Indus script — 5000 inscriptions, no bilingual key, 250k sq mile distribution",
     "Voynich manuscript — sold for 600 ducats, vanished, resurfaced 1912"
   ],
-  "next_step": "Return to the notebook or Toadskin, or introduce a new script; consider a post where the narrator documents an artifact they made rather than found, or lets the ka-nu-ti / KALENDA proximity sit unremarked while another gap surfaces."
+  "next_step": "Return to an undeciphered script (Voynich has not been used yet, or Vinča/Proto-Elamite revisit) and plant a detail about a symbol matching the bracket-with-dot, or document what happens on page 8."
 }
