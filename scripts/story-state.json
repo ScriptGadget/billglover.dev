@@ -2,6 +2,18 @@
   "arc_position": "discovery",
   "posts": [
     {
+      "slug": "brainfuck-and-the-six-instruction-subset",
+      "title": "brainfuck and the six-instruction subset",
+      "date": "2026-08-17",
+      "summary": "Narrator documents the six-instruction reversible subset of Brainfuck, notes the mirror-program property, and finds a wiki talk page with a single reverted line reading 'count them again'.",
+      "planted": [
+        "six-instruction Brainfuck subset is reversible because dropping . and , removes communication",
+        "wiki talk page has a single reverted 2011 line reading 'count them again' with blank revert reason",
+        "narrator wrote out the six operators in reversed/inverted order without noticing",
+        "4802 tape operations = 49 x 98"
+      ]
+    },
+    {
       "slug": "the-voynich-quire-numbering-and-the-missing-folios",
       "title": "the voynich quire numbering and the missing folios",
       "date": "2026-08-10",
@@ -208,7 +220,11 @@
     "seven distinct log-words across 84 entries, duration 49 appearing nine times",
     "pages 8, 16, 24 skipped in a pattern of eight, each bearing an unfamiliar bracket-with-dot symbol",
     "Voynich has 14 missing folios (2x7), clustered in specific groups",
-    "an uncatalogued bracket-with-dot mark appears on f57v beside a four-figure diagram where one figure is left-handed"
+    "an uncatalogued bracket-with-dot mark appears on f57v beside a four-figure diagram where one figure is left-handed",
+    "six-instruction Brainfuck subset is reversible because dropping . and , removes communication",
+    "wiki talk page has a single reverted 2011 line reading 'count them again' with blank revert reason",
+    "narrator wrote out the six operators in reversed/inverted order without noticing",
+    "4802 tape operations = 49 x 98"
   ],
   "motifs_used": [
     "the number 7",
@@ -238,7 +254,10 @@
     "left-handedness / things that work backwards (wrong hand as a log-word)",
     "gaps (missing folios, undocumented provenance 1670-1912, mark absent from all catalogues)",
     "left-handedness (one of four figures, verso as left-hand page)",
-    "the bracket-with-dot symbol"
+    "the bracket-with-dot symbol",
+    "the number 7 (49 = 7^2, seven-line program)",
+    "left-handedness / things that work backwards (mirror programs, reversed operator order)",
+    "gaps (dropped . and , instructions, reverted talk page line, unresolvable initials)"
   ],
   "open_questions": [
     "whose notebook is it",
@@ -264,5 +283,5 @@
     "Indus script — 5000 inscriptions, no bilingual key, 250k sq mile distribution",
     "Voynich manuscript — sold for 600 ducats, vanished, resurfaced 1912"
   ],
-  "next_step": ""
+  "next_step": "Return to an undeciphered script, likely Vinča or Proto-Elamite, and plant a detail about reversibility or paired inverse marks."
 }
