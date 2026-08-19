@@ -2,7 +2,7 @@
 
 Source for [billglover.dev](https://billglover.dev). Terminal-themed static blog. Posts are markdown, built to HTML at deploy time.
 
-I write about code and things adjacent to code. Something posts on Mondays. The commit history is accurate.
+This is just an example site for some ideas I had about themes and automation. The posts are generated nonsense.
 
 ---
 
