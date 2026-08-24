@@ -2,6 +2,18 @@
   "arc_position": "discovery",
   "posts": [
     {
+      "slug": "vin-a-figurine-plovdiv-44b-and-its-inverse",
+      "title": "vinča figurine plovdiv 44b and its inverse",
+      "date": "2026-08-24",
+      "summary": "Narrator documents Vinča figurine Plovdiv 44b, whose left-side seven marks are mirrored in reversed order and flipped orientation on the right side, including the uncatalogued bracket-with-dot sign; the object is missing from Nikolov's list and the museum will not send right-side images.",
+      "planted": [
+        "Plovdiv 44b has seven marks on the left mirrored in reversed order and inverted orientation on the right",
+        "the bracket-with-dot sign appears on 44b, uncatalogued in Winn and Merlini",
+        "44b is skipped in Nikolov's 1989 list between 44a and 45",
+        "the curator's office sent a left-side photo when asked for the right side"
+      ]
+    },
+    {
       "slug": "brainfuck-and-the-six-instruction-subset",
       "title": "brainfuck and the six-instruction subset",
       "date": "2026-08-17",
@@ -224,7 +236,11 @@
     "six-instruction Brainfuck subset is reversible because dropping . and , removes communication",
     "wiki talk page has a single reverted 2011 line reading 'count them again' with blank revert reason",
     "narrator wrote out the six operators in reversed/inverted order without noticing",
-    "4802 tape operations = 49 x 98"
+    "4802 tape operations = 49 x 98",
+    "Plovdiv 44b has seven marks on the left mirrored in reversed order and inverted orientation on the right",
+    "the bracket-with-dot sign appears on 44b, uncatalogued in Winn and Merlini",
+    "44b is skipped in Nikolov's 1989 list between 44a and 45",
+    "the curator's office sent a left-side photo when asked for the right side"
   ],
   "motifs_used": [
     "the number 7",
@@ -257,7 +273,9 @@
     "the bracket-with-dot symbol",
     "the number 7 (49 = 7^2, seven-line program)",
     "left-handedness / things that work backwards (mirror programs, reversed operator order)",
-    "gaps (dropped . and , instructions, reverted talk page line, unresolvable initials)"
+    "gaps (dropped . and , instructions, reverted talk page line, unresolvable initials)",
+    "left-handedness / things that work backwards",
+    "gaps (missing catalogue entry, withheld imaging, absent from Nikolov's list)"
   ],
   "open_questions": [
     "whose notebook is it",
@@ -283,5 +301,5 @@
     "Indus script — 5000 inscriptions, no bilingual key, 250k sq mile distribution",
     "Voynich manuscript — sold for 600 ducats, vanished, resurfaced 1912"
   ],
-  "next_step": "Return to an undeciphered script, likely Vinča or Proto-Elamite, and plant a detail about reversibility or paired inverse marks."
+  "next_step": "Return to an esolang or the Toadskin output and plant a detail about paired-inverse operators or a mirror-symmetric substructure in the 7x7 grid."
 }
