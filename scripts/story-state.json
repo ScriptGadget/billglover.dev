@@ -2,6 +2,17 @@
   "arc_position": "discovery",
   "posts": [
     {
+      "slug": "befunge-and-the-paired-mirrors",
+      "title": "befunge and the paired mirrors",
+      "date": "2026-08-31",
+      "summary": "Narrator documents Befunge's paired-inverse operators, writes a mirror-symmetric program that undoes itself, and discovers that mirror-position bytes in the 7x7 Toadskin grid all XOR to 0x1B (27) with a 0x07 center.",
+      "planted": [
+        "Befunge paired inverses (six pairs, twelve operators plus halt = 13, doubled = 27)",
+        "7x7 grid mirror pairs all XOR to 0x1B (27) with center byte 0x07",
+        "Kraków mirror of esolangs wiki cites an unattributed 'K. 2009' on the Befunge page"
+      ]
+    },
+    {
       "slug": "vin-a-figurine-plovdiv-44b-and-its-inverse",
       "title": "vinča figurine plovdiv 44b and its inverse",
       "date": "2026-08-24",
@@ -240,7 +251,10 @@
     "Plovdiv 44b has seven marks on the left mirrored in reversed order and inverted orientation on the right",
     "the bracket-with-dot sign appears on 44b, uncatalogued in Winn and Merlini",
     "44b is skipped in Nikolov's 1989 list between 44a and 45",
-    "the curator's office sent a left-side photo when asked for the right side"
+    "the curator's office sent a left-side photo when asked for the right side",
+    "Befunge paired inverses (six pairs, twelve operators plus halt = 13, doubled = 27)",
+    "7x7 grid mirror pairs all XOR to 0x1B (27) with center byte 0x07",
+    "Kraków mirror of esolangs wiki cites an unattributed 'K. 2009' on the Befunge page"
   ],
   "motifs_used": [
     "the number 7",
@@ -275,7 +289,9 @@
     "left-handedness / things that work backwards (mirror programs, reversed operator order)",
     "gaps (dropped . and , instructions, reverted talk page line, unresolvable initials)",
     "left-handedness / things that work backwards",
-    "gaps (missing catalogue entry, withheld imaging, absent from Nikolov's list)"
+    "gaps (missing catalogue entry, withheld imaging, absent from Nikolov's list)",
+    "gaps (unattributed K. 2009 citation)",
+    "KALENDA (implied via K. 2009 and Kraków mirror)"
   ],
   "open_questions": [
     "whose notebook is it",
@@ -301,5 +317,5 @@
     "Indus script — 5000 inscriptions, no bilingual key, 250k sq mile distribution",
     "Voynich manuscript — sold for 600 ducats, vanished, resurfaced 1912"
   ],
-  "next_step": "Return to an esolang or the Toadskin output and plant a detail about paired-inverse operators or a mirror-symmetric substructure in the 7x7 grid."
+  "next_step": "Return to an undeciphered script (Proto-Elamite or Vinča not recently used) and plant a paired-inverse or XOR-like symmetry detail that echoes the 0x1B/27 finding without naming it."
 }
