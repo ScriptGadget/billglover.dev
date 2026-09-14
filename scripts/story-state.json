@@ -2,6 +2,18 @@
   "arc_position": "discovery",
   "posts": [
     {
+      "slug": "whitespace-and-the-visible-noise",
+      "title": "whitespace and the visible noise",
+      "date": "2026-09-14",
+      "summary": "Narrator documents Whitespace and finds that the invisible spacing in a canonical Brainfuck hello-world on the esolangs wiki parses as a Whitespace program that pushes the letters of KALENDA to the stack, with a second file pushing 27 and 7.",
+      "planted": [
+        "Whitespace parses only space/tab/linefeed and ignores all visible characters, so a Brainfuck source doubles as a Whitespace program",
+        "the spacing in a canonical wiki Brainfuck hello-world pushes 75,65,76,69,78,68,65 (KALENDA) to the stack",
+        "a second wiki hello-world pushes 27 and 7 under wspace",
+        "the 'cleanup' edit introducing the formatting was made in March 2009 by a seven-character username with three edits, all Brainfuck-adjacent"
+      ]
+    },
+    {
       "slug": "proto-elamite-m-052-and-the-paired-scribes",
       "title": "proto-elamite M-052 and the paired scribes",
       "date": "2026-09-07",
@@ -270,7 +282,11 @@
     "M-052's two faces have disjoint 43-sign inventories that pair as horizontal mirrors",
     "the bracket-with-dot symbol appears as sign 71 hapax at center of Face A with a deliberate blank at the mirrored position on Face B",
     "M-104 and M-217 also have disjoint two-face inventories, unstudied",
-    "curatorial imaging queue is seven months"
+    "curatorial imaging queue is seven months",
+    "Whitespace parses only space/tab/linefeed and ignores all visible characters, so a Brainfuck source doubles as a Whitespace program",
+    "the spacing in a canonical wiki Brainfuck hello-world pushes 75,65,76,69,78,68,65 (KALENDA) to the stack",
+    "a second wiki hello-world pushes 27 and 7 under wspace",
+    "the 'cleanup' edit introducing the formatting was made in March 2009 by a seven-character username with three edits, all Brainfuck-adjacent"
   ],
   "motifs_used": [
     "the number 7",
@@ -308,7 +324,9 @@
     "gaps (missing catalogue entry, withheld imaging, absent from Nikolov's list)",
     "gaps (unattributed K. 2009 citation)",
     "KALENDA (implied via K. 2009 and Kraków mirror)",
-    "gaps (blank mirrored position, unaddressed footnote, seven-month queue, storage)"
+    "gaps (blank mirrored position, unaddressed footnote, seven-month queue, storage)",
+    "gaps (invisible content, silently discarded stack, unnamed editor)",
+    "left-handedness / things that work backwards (the visible content is the noise, the invisible is the signal)"
   ],
   "open_questions": [
     "whose notebook is it",
@@ -334,5 +352,5 @@
     "Indus script — 5000 inscriptions, no bilingual key, 250k sq mile distribution",
     "Voynich manuscript — sold for 600 ducats, vanished, resurfaced 1912"
   ],
-  "next_step": "Introduce a new esolang or notation detail (possibly Whitespace or a return to Malbolge) that shows an inventory-splitting or invisible-content pattern, or plant a Hackers-adjacent 'garbage file' echo without naming it."
+  "next_step": "Return to an undeciphered script (Proto-Elamite, Cretan hieroglyphics, or Indus) with a detail about content that is present but not counted, or plant a Wizards-adjacent detail about perception without comprehension."
 }
