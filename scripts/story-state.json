@@ -2,6 +2,16 @@
   "arc_position": "discovery",
   "posts": [
     {
+      "slug": "proto-elamite-m-217-and-the-count-that-is-not-a-count",
+      "title": "proto-elamite M-217 and the count that is not a count",
+      "date": "2026-09-21",
+      "summary": "Narrator returns to Proto-Elamite M-217 and M-104, finding the bracket-with-dot symbol appearing in a vertical line down the center column of each, counted in the sign totals but unidentified in both Meriggi's and Dahl's catalogues.",
+      "planted": [
+        "bracket-with-dot symbol appears four times down the center column of M-217 and three times down the center column of M-104, catalogued as 'unclear' but photographed clearly",
+        "Meriggi's 1968 letter asking about the marks received no answer; Dahl's footnote 12 defers to Meriggi with no footnote 13"
+      ]
+    },
+    {
       "slug": "whitespace-and-the-visible-noise",
       "title": "whitespace and the visible noise",
       "date": "2026-09-14",
@@ -286,7 +296,9 @@
     "Whitespace parses only space/tab/linefeed and ignores all visible characters, so a Brainfuck source doubles as a Whitespace program",
     "the spacing in a canonical wiki Brainfuck hello-world pushes 75,65,76,69,78,68,65 (KALENDA) to the stack",
     "a second wiki hello-world pushes 27 and 7 under wspace",
-    "the 'cleanup' edit introducing the formatting was made in March 2009 by a seven-character username with three edits, all Brainfuck-adjacent"
+    "the 'cleanup' edit introducing the formatting was made in March 2009 by a seven-character username with three edits, all Brainfuck-adjacent",
+    "bracket-with-dot symbol appears four times down the center column of M-217 and three times down the center column of M-104, catalogued as 'unclear' but photographed clearly",
+    "Meriggi's 1968 letter asking about the marks received no answer; Dahl's footnote 12 defers to Meriggi with no footnote 13"
   ],
   "motifs_used": [
     "the number 7",
@@ -326,7 +338,10 @@
     "KALENDA (implied via K. 2009 and Kraków mirror)",
     "gaps (blank mirrored position, unaddressed footnote, seven-month queue, storage)",
     "gaps (invisible content, silently discarded stack, unnamed editor)",
-    "left-handedness / things that work backwards (the visible content is the noise, the invisible is the signal)"
+    "left-handedness / things that work backwards (the visible content is the noise, the invisible is the signal)",
+    "gaps (marks counted but not identified, missing footnote 13, unanswered 1968 letter, seven-month imaging queue)",
+    "the number 7 (seven columns, 84 = 12x7 and 63 = 9x7)",
+    "count them again (implicit: 84 vs 80)"
   ],
   "open_questions": [
     "whose notebook is it",
@@ -352,5 +367,5 @@
     "Indus script — 5000 inscriptions, no bilingual key, 250k sq mile distribution",
     "Voynich manuscript — sold for 600 ducats, vanished, resurfaced 1912"
   ],
-  "next_step": "Return to an undeciphered script (Proto-Elamite, Cretan hieroglyphics, or Indus) with a detail about content that is present but not counted, or plant a Wizards-adjacent detail about perception without comprehension."
+  "next_step": "Plant a Wizards-adjacent detail about perception without comprehension, possibly through a found transmission or a note about the narrator watching something three times in a week, or return to Toadskin/KALENDA with a new anomaly in the output."
 }
