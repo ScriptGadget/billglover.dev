@@ -2,6 +2,21 @@
   "arc_position": "discovery",
   "posts": [
     {
+      "slug": "the-film-i-watched-three-times-in-one-week",
+      "title": "the film I watched three times in one week",
+      "date": "2026-09-28",
+      "summary": "Narrator documents watching Ralph Bakshi's Wizards three times in one week without deciding to, focusing on the propaganda reels that bypass comprehension and a seven-word line, with a Dickinson book noted in passing.",
+      "planted": [
+        "narrator watched Wizards three times in one week, did not notice choosing to",
+        "rotoscoping as tracing over real movement",
+        "propaganda footage that operates without needing to be understood",
+        "seven words spoken before the pistol shot, counted and recounted",
+        "one of the twin wizards left-handed in three frames",
+        "erased seven-character name in pencil inside the DVD case",
+        "Peter Dickinson's Flight of Dragons on the adjacent shelf, moved and not returned"
+      ]
+    },
+    {
       "slug": "proto-elamite-m-217-and-the-count-that-is-not-a-count",
       "title": "proto-elamite M-217 and the count that is not a count",
       "date": "2026-09-21",
@@ -298,7 +313,14 @@
     "a second wiki hello-world pushes 27 and 7 under wspace",
     "the 'cleanup' edit introducing the formatting was made in March 2009 by a seven-character username with three edits, all Brainfuck-adjacent",
     "bracket-with-dot symbol appears four times down the center column of M-217 and three times down the center column of M-104, catalogued as 'unclear' but photographed clearly",
-    "Meriggi's 1968 letter asking about the marks received no answer; Dahl's footnote 12 defers to Meriggi with no footnote 13"
+    "Meriggi's 1968 letter asking about the marks received no answer; Dahl's footnote 12 defers to Meriggi with no footnote 13",
+    "narrator watched Wizards three times in one week, did not notice choosing to",
+    "rotoscoping as tracing over real movement",
+    "propaganda footage that operates without needing to be understood",
+    "seven words spoken before the pistol shot, counted and recounted",
+    "one of the twin wizards left-handed in three frames",
+    "erased seven-character name in pencil inside the DVD case",
+    "Peter Dickinson's Flight of Dragons on the adjacent shelf, moved and not returned"
   ],
   "motifs_used": [
     "the number 7",
@@ -341,7 +363,8 @@
     "left-handedness / things that work backwards (the visible content is the noise, the invisible is the signal)",
     "gaps (marks counted but not identified, missing footnote 13, unanswered 1968 letter, seven-month imaging queue)",
     "the number 7 (seven columns, 84 = 12x7 and 63 = 9x7)",
-    "count them again (implicit: 84 vs 80)"
+    "count them again (implicit: 84 vs 80)",
+    "gaps (the erased name, the missing fourth-night memory of the first three)"
   ],
   "open_questions": [
     "whose notebook is it",
@@ -367,5 +390,5 @@
     "Indus script — 5000 inscriptions, no bilingual key, 250k sq mile distribution",
     "Voynich manuscript — sold for 600 ducats, vanished, resurfaced 1912"
   ],
-  "next_step": "Plant a Wizards-adjacent detail about perception without comprehension, possibly through a found transmission or a note about the narrator watching something three times in a week, or return to Toadskin/KALENDA with a new anomaly in the output."
+  "next_step": "Return to an undeciphered script (Vinča or Indus not recently used) or to a Toadskin/KALENDA anomaly, keeping the film detail from being clustered with other film references."
 }
