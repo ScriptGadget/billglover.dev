@@ -2,6 +2,18 @@
   "arc_position": "discovery",
   "posts": [
     {
+      "slug": "the-indus-seal-from-chanhu-daro-with-the-single-sign-reverse",
+      "title": "the indus seal from chanhu-daro with the single-sign reverse",
+      "date": "2026-10-05",
+      "summary": "Narrator documents Indus seal C-17 from Chanhu-daro: a seven-sign palindrome around a central dotted double-stroke, with a left-facing bull looking backward, Mackay's 1943 footnote telling the reader to count the signs again, and the seal currently inaccessible.",
+      "planted": [
+        "C-17 is a seven-sign palindrome mirrored around a central bracket-with-dot (double-stroke with dot) sign uncatalogued in both Mahadevan and Parpola",
+        "Mackay's 1943 footnote on C-17 reads 'Count the signs again'",
+        "the bull faces left and looks backward over its left shoulder, a posture omitted from Franke-Vogt's 1991 index",
+        "C-17 under conservation since 2019 with no completion date"
+      ]
+    },
+    {
       "slug": "the-film-i-watched-three-times-in-one-week",
       "title": "the film I watched three times in one week",
       "date": "2026-09-28",
@@ -320,7 +332,11 @@
     "seven words spoken before the pistol shot, counted and recounted",
     "one of the twin wizards left-handed in three frames",
     "erased seven-character name in pencil inside the DVD case",
-    "Peter Dickinson's Flight of Dragons on the adjacent shelf, moved and not returned"
+    "Peter Dickinson's Flight of Dragons on the adjacent shelf, moved and not returned",
+    "C-17 is a seven-sign palindrome mirrored around a central bracket-with-dot (double-stroke with dot) sign uncatalogued in both Mahadevan and Parpola",
+    "Mackay's 1943 footnote on C-17 reads 'Count the signs again'",
+    "the bull faces left and looks backward over its left shoulder, a posture omitted from Franke-Vogt's 1991 index",
+    "C-17 under conservation since 2019 with no completion date"
   ],
   "motifs_used": [
     "the number 7",
@@ -364,7 +380,8 @@
     "gaps (marks counted but not identified, missing footnote 13, unanswered 1968 letter, seven-month imaging queue)",
     "the number 7 (seven columns, 84 = 12x7 and 63 = 9x7)",
     "count them again (implicit: 84 vs 80)",
-    "gaps (the erased name, the missing fourth-night memory of the first three)"
+    "gaps (the erased name, the missing fourth-night memory of the first three)",
+    "gaps (uncatalogued dotted variant, omitted posture index, inaccessible since 2019, disagreeing sign counts)"
   ],
   "open_questions": [
     "whose notebook is it",
@@ -390,5 +407,5 @@
     "Indus script — 5000 inscriptions, no bilingual key, 250k sq mile distribution",
     "Voynich manuscript — sold for 600 ducats, vanished, resurfaced 1912"
   ],
-  "next_step": "Return to an undeciphered script (Vinča or Indus not recently used) or to a Toadskin/KALENDA anomaly, keeping the film detail from being clustered with other film references."
+  "next_step": "Return to a Toadskin/KALENDA anomaly or the operator log, keeping film references spaced out, and let a reader-noticeable detail about the dotted sign's position in the 7x7 output surface without comment."
 }
