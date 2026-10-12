@@ -2,6 +2,17 @@
   "arc_position": "discovery",
   "posts": [
     {
+      "slug": "the-toadskin-output-and-position-25",
+      "title": "the toadskin output and position 25",
+      "date": "2026-10-12",
+      "summary": "Narrator revisits the Toadskin 7x7 output, identifies position 25 (the 0x1B center) and six surrounding cells as the only breaks in the three-byte cycle, and finds the trailing whitespace of the 2009 KALENDA wiki edit pushes 25 to a Whitespace stack.",
+      "planted": [
+        "the six-cell cross-plus-center break pattern at position 25 of the 7x7 output",
+        "trailing whitespace on the KALENDA 2009 wiki edit parses as Whitespace pushing 25",
+        "0x5F (underscore) as the sum of the three cycle bytes 0x4B+0x07+0x0D"
+      ]
+    },
+    {
       "slug": "the-indus-seal-from-chanhu-daro-with-the-single-sign-reverse",
       "title": "the indus seal from chanhu-daro with the single-sign reverse",
       "date": "2026-10-05",
@@ -336,7 +347,10 @@
     "C-17 is a seven-sign palindrome mirrored around a central bracket-with-dot (double-stroke with dot) sign uncatalogued in both Mahadevan and Parpola",
     "Mackay's 1943 footnote on C-17 reads 'Count the signs again'",
     "the bull faces left and looks backward over its left shoulder, a posture omitted from Franke-Vogt's 1991 index",
-    "C-17 under conservation since 2019 with no completion date"
+    "C-17 under conservation since 2019 with no completion date",
+    "the six-cell cross-plus-center break pattern at position 25 of the 7x7 output",
+    "trailing whitespace on the KALENDA 2009 wiki edit parses as Whitespace pushing 25",
+    "0x5F (underscore) as the sum of the three cycle bytes 0x4B+0x07+0x0D"
   ],
   "motifs_used": [
     "the number 7",
@@ -381,7 +395,10 @@
     "the number 7 (seven columns, 84 = 12x7 and 63 = 9x7)",
     "count them again (implicit: 84 vs 80)",
     "gaps (the erased name, the missing fourth-night memory of the first three)",
-    "gaps (uncatalogued dotted variant, omitted posture index, inaccessible since 2019, disagreeing sign counts)"
+    "gaps (uncatalogued dotted variant, omitted posture index, inaccessible since 2019, disagreeing sign counts)",
+    "gaps (invisible whitespace carrying a value, break in the cycle)",
+    "left-handedness / things that work backwards (row 3 inverts around the center)",
+    "the bracket-with-dot symbol (via Plovdiv 44b fold-point parallel)"
   ],
   "open_questions": [
     "whose notebook is it",
@@ -407,5 +424,5 @@
     "Indus script — 5000 inscriptions, no bilingual key, 250k sq mile distribution",
     "Voynich manuscript — sold for 600 ducats, vanished, resurfaced 1912"
   ],
-  "next_step": "Return to a Toadskin/KALENDA anomaly or the operator log, keeping film references spaced out, and let a reader-noticeable detail about the dotted sign's position in the 7x7 output surface without comment."
+  "next_step": "Return to an undeciphered-script artifact (Proto-Elamite or Cretan hieroglyphs preferred to rotate off Vinča/Indus) and plant one detail about a center-position anomaly or a wrong byte in the sequence."
 }
