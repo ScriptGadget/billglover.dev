@@ -2,6 +2,18 @@
   "arc_position": "discovery",
   "posts": [
     {
+      "slug": "proto-elamite-m-388-and-the-wrong-sign-in-the-middle",
+      "title": "proto-elamite M-388 and the wrong sign in the middle",
+      "date": "2026-10-19",
+      "summary": "Narrator documents Proto-Elamite monument M-388, finds the bracket-with-dot sign at the exact middle under one count and one short of middle under another, and discovers the Toadskin 7x7 grid is symmetric across the main diagonal.",
+      "planted": [
+        "M-388 has a bracket-with-dot sign at position 36 that is unmarked in Dahl's transliteration which skips 35 to 37 without comment",
+        "the Louvre field notebook for trench 7 was marked 'en cours de traitement' in March 2009",
+        "the Toadskin 7x7 grid is symmetric across the main diagonal, a symmetry the narrator had not previously checked",
+        "position 24 of the grid is 0x4B (K), adjacent to the 0x1B center"
+      ]
+    },
+    {
       "slug": "the-toadskin-output-and-position-25",
       "title": "the toadskin output and position 25",
       "date": "2026-10-12",
@@ -350,7 +362,11 @@
     "C-17 under conservation since 2019 with no completion date",
     "the six-cell cross-plus-center break pattern at position 25 of the 7x7 output",
     "trailing whitespace on the KALENDA 2009 wiki edit parses as Whitespace pushing 25",
-    "0x5F (underscore) as the sum of the three cycle bytes 0x4B+0x07+0x0D"
+    "0x5F (underscore) as the sum of the three cycle bytes 0x4B+0x07+0x0D",
+    "M-388 has a bracket-with-dot sign at position 36 that is unmarked in Dahl's transliteration which skips 35 to 37 without comment",
+    "the Louvre field notebook for trench 7 was marked 'en cours de traitement' in March 2009",
+    "the Toadskin 7x7 grid is symmetric across the main diagonal, a symmetry the narrator had not previously checked",
+    "position 24 of the grid is 0x4B (K), adjacent to the 0x1B center"
   ],
   "motifs_used": [
     "the number 7",
@@ -398,7 +414,9 @@
     "gaps (uncatalogued dotted variant, omitted posture index, inaccessible since 2019, disagreeing sign counts)",
     "gaps (invisible whitespace carrying a value, break in the cycle)",
     "left-handedness / things that work backwards (row 3 inverts around the center)",
-    "the bracket-with-dot symbol (via Plovdiv 44b fold-point parallel)"
+    "the bracket-with-dot symbol (via Plovdiv 44b fold-point parallel)",
+    "gaps (unmarked sign, inaccessible notebook, March 2009 date)",
+    "left-handedness / things that work backwards (diagonal mirror, column-major vs row-major)"
   ],
   "open_questions": [
     "whose notebook is it",
@@ -424,5 +442,5 @@
     "Indus script — 5000 inscriptions, no bilingual key, 250k sq mile distribution",
     "Voynich manuscript — sold for 600 ducats, vanished, resurfaced 1912"
   ],
-  "next_step": "Return to an undeciphered-script artifact (Proto-Elamite or Cretan hieroglyphs preferred to rotate off Vinča/Indus) and plant one detail about a center-position anomaly or a wrong byte in the sequence."
+  "next_step": "Return to an esolang or a conlang artifact and plant a small detail about ordering or orientation that echoes the diagonal symmetry."
 }
