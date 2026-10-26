@@ -2,6 +2,18 @@
   "arc_position": "discovery",
   "posts": [
     {
+      "slug": "ouroboros-and-the-diagonal-read",
+      "title": "ouroboros and the diagonal read",
+      "date": "2026-10-26",
+      "summary": "Narrator documents Daniel Temkin's Ouroboros esolang, finds that it halts on the seventh generation when read left to right but behaves as a quine when read along the diagonal, with a Kraków-IP 'count them again' reply on the talk page.",
+      "planted": [
+        "Ouroboros halts on the seventh generation under left-to-right read but is a quine under diagonal read",
+        "Kraków-netblock 'count them again' reply on the Ouroboros talk page from 2016",
+        "the wiki page sequence changed between copies with no diff log entry",
+        "Temkin's contact page 404s, last edited March 2015"
+      ]
+    },
+    {
       "slug": "proto-elamite-m-388-and-the-wrong-sign-in-the-middle",
       "title": "proto-elamite M-388 and the wrong sign in the middle",
       "date": "2026-10-19",
@@ -366,7 +378,11 @@
     "M-388 has a bracket-with-dot sign at position 36 that is unmarked in Dahl's transliteration which skips 35 to 37 without comment",
     "the Louvre field notebook for trench 7 was marked 'en cours de traitement' in March 2009",
     "the Toadskin 7x7 grid is symmetric across the main diagonal, a symmetry the narrator had not previously checked",
-    "position 24 of the grid is 0x4B (K), adjacent to the 0x1B center"
+    "position 24 of the grid is 0x4B (K), adjacent to the 0x1B center",
+    "Ouroboros halts on the seventh generation under left-to-right read but is a quine under diagonal read",
+    "Kraków-netblock 'count them again' reply on the Ouroboros talk page from 2016",
+    "the wiki page sequence changed between copies with no diff log entry",
+    "Temkin's contact page 404s, last edited March 2015"
   ],
   "motifs_used": [
     "the number 7",
@@ -416,7 +432,10 @@
     "left-handedness / things that work backwards (row 3 inverts around the center)",
     "the bracket-with-dot symbol (via Plovdiv 44b fold-point parallel)",
     "gaps (unmarked sign, inaccessible notebook, March 2009 date)",
-    "left-handedness / things that work backwards (diagonal mirror, column-major vs row-major)"
+    "left-handedness / things that work backwards (diagonal mirror, column-major vs row-major)",
+    "gaps (dead contact link, no diff log, miscounted operators)",
+    "left-handedness / things that work backwards (right-to-left read, diagonal read)",
+    "KALENDA (implied via Kraków netblock)"
   ],
   "open_questions": [
     "whose notebook is it",
@@ -442,5 +461,5 @@
     "Indus script — 5000 inscriptions, no bilingual key, 250k sq mile distribution",
     "Voynich manuscript — sold for 600 ducats, vanished, resurfaced 1912"
   ],
-  "next_step": "Return to an esolang or a conlang artifact and plant a small detail about ordering or orientation that echoes the diagonal symmetry."
+  "next_step": "Return to an undeciphered script, probably Linear A or Rongorongo, and plant a detail about reading direction or a count that disagrees with itself."
 }
