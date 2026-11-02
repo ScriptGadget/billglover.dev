@@ -2,6 +2,17 @@
   "arc_position": "discovery",
   "posts": [
     {
+      "slug": "linear-a-tablet-ht-31-and-the-two-readings",
+      "title": "linear a tablet ht 31 and the two readings",
+      "date": "2026-11-02",
+      "summary": "Narrator documents Linear A tablet HT 31 and finds two published readings (left-to-right and right-to-left) that share only the central sign, with facsimiles that disagree on sign counts and a central dotted mark that has shifted position between photographs.",
+      "planted": [
+        "HT 31 has two published readings in opposite directions that share only the center sign at position 27",
+        "the central sign is a dotted stroke whose dot position shifts between the 1903 plate and later photographs",
+        "Ellerbe's note on HT 31 reads 'Count both ways'"
+      ]
+    },
+    {
       "slug": "ouroboros-and-the-diagonal-read",
       "title": "ouroboros and the diagonal read",
       "date": "2026-10-26",
@@ -382,7 +393,10 @@
     "Ouroboros halts on the seventh generation under left-to-right read but is a quine under diagonal read",
     "Kraków-netblock 'count them again' reply on the Ouroboros talk page from 2016",
     "the wiki page sequence changed between copies with no diff log entry",
-    "Temkin's contact page 404s, last edited March 2015"
+    "Temkin's contact page 404s, last edited March 2015",
+    "HT 31 has two published readings in opposite directions that share only the center sign at position 27",
+    "the central sign is a dotted stroke whose dot position shifts between the 1903 plate and later photographs",
+    "Ellerbe's note on HT 31 reads 'Count both ways'"
   ],
   "motifs_used": [
     "the number 7",
@@ -435,7 +449,9 @@
     "left-handedness / things that work backwards (diagonal mirror, column-major vs row-major)",
     "gaps (dead contact link, no diff log, miscounted operators)",
     "left-handedness / things that work backwards (right-to-left read, diagonal read)",
-    "KALENDA (implied via Kraków netblock)"
+    "KALENDA (implied via Kraków netblock)",
+    "gaps (incomplete museum records, disagreeing facsimiles, the queried stroke)",
+    "the bracket-with-dot symbol (via the dotted central sign)"
   ],
   "open_questions": [
     "whose notebook is it",
@@ -461,5 +477,5 @@
     "Indus script — 5000 inscriptions, no bilingual key, 250k sq mile distribution",
     "Voynich manuscript — sold for 600 ducats, vanished, resurfaced 1912"
   ],
-  "next_step": "Return to an undeciphered script, probably Linear A or Rongorongo, and plant a detail about reading direction or a count that disagrees with itself."
+  "next_step": "Document an esolang or notebook detail where the direction of reading is itself the variable, or return to Rongorongo and the rotation."
 }
