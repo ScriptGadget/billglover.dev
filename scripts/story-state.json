@@ -2,6 +2,16 @@
   "arc_position": "discovery",
   "posts": [
     {
+      "slug": "rongorongo-tablet-h-and-the-rotation-that-is-not-180",
+      "title": "rongorongo tablet H and the rotation that is not 180",
+      "date": "2026-11-09",
+      "summary": "Narrator documents Rongorongo tablet H, finds seven occurrences of sign 076 that rotate between 7 and 12 degrees off axis instead of 180, all at position seven on odd lines, and notes a kalenda-named file on a University of Chile mirror preserving a pre-2009 image where one glyph carries a dot now missing.",
+      "planted": [
+        "seven off-axis sign-076 occurrences on tablet H, one per odd recto line at position seven",
+        "pre-2009 mirror image shows a dot inside sign 076 that is absent from the current image, filename kalenda_H_recto.tif"
+      ]
+    },
+    {
       "slug": "linear-a-tablet-ht-31-and-the-two-readings",
       "title": "linear a tablet ht 31 and the two readings",
       "date": "2026-11-02",
@@ -396,7 +406,9 @@
     "Temkin's contact page 404s, last edited March 2015",
     "HT 31 has two published readings in opposite directions that share only the center sign at position 27",
     "the central sign is a dotted stroke whose dot position shifts between the 1903 plate and later photographs",
-    "Ellerbe's note on HT 31 reads 'Count both ways'"
+    "Ellerbe's note on HT 31 reads 'Count both ways'",
+    "seven off-axis sign-076 occurrences on tablet H, one per odd recto line at position seven",
+    "pre-2009 mirror image shows a dot inside sign 076 that is absent from the current image, filename kalenda_H_recto.tif"
   ],
   "motifs_used": [
     "the number 7",
@@ -451,7 +463,9 @@
     "left-handedness / things that work backwards (right-to-left read, diagonal read)",
     "KALENDA (implied via Kraków netblock)",
     "gaps (incomplete museum records, disagreeing facsimiles, the queried stroke)",
-    "the bracket-with-dot symbol (via the dotted central sign)"
+    "the bracket-with-dot symbol (via the dotted central sign)",
+    "gaps (unmatched citations, missing pause count, replaced image, empty user directory)",
+    "the bracket-with-dot symbol (via the dot inside the bent-arm sign)"
   ],
   "open_questions": [
     "whose notebook is it",
@@ -477,5 +491,5 @@
     "Indus script — 5000 inscriptions, no bilingual key, 250k sq mile distribution",
     "Voynich manuscript — sold for 600 ducats, vanished, resurfaced 1912"
   ],
-  "next_step": "Document an esolang or notebook detail where the direction of reading is itself the variable, or return to Rongorongo and the rotation."
+  "next_step": "Return to an esolang where the operator's orientation matters (a Befunge variant, or Piet) and let the direction-of-reading question surface again through code rather than inscription."
 }
