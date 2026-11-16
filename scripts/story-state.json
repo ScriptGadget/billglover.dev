@@ -2,6 +2,18 @@
   "arc_position": "discovery",
   "posts": [
     {
+      "slug": "piet-and-the-program-that-reads-in-four-directions",
+      "title": "piet and the program that reads in four directions",
+      "date": "2026-11-16",
+      "summary": "Narrator documents Piet and a 7x7 program rotate.png whose two archived copies differ by one pixel, the second producing four different 49-byte outputs (one per direction) each with 0x1B at position 25, linked to a vanished Kraków-attributed 'rotate' interpreter with a missing footnote 7.",
+      "planted": [
+        "rotate.png is 7x7 codels and produces four 49-byte outputs when initialized in each cardinal direction, each with 0x1B at position 25",
+        "the main diagonal of the second rotate.png output matches the anti-diagonal of the existing Toadskin output",
+        "the rotate interpreter README is signed 'K., Kraków' with a superscript 7 footnote marker and no footnote",
+        "the 'prints nothing until you turn it' description was added March 14, 2009"
+      ]
+    },
+    {
       "slug": "rongorongo-tablet-h-and-the-rotation-that-is-not-180",
       "title": "rongorongo tablet H and the rotation that is not 180",
       "date": "2026-11-09",
@@ -408,7 +420,11 @@
     "the central sign is a dotted stroke whose dot position shifts between the 1903 plate and later photographs",
     "Ellerbe's note on HT 31 reads 'Count both ways'",
     "seven off-axis sign-076 occurrences on tablet H, one per odd recto line at position seven",
-    "pre-2009 mirror image shows a dot inside sign 076 that is absent from the current image, filename kalenda_H_recto.tif"
+    "pre-2009 mirror image shows a dot inside sign 076 that is absent from the current image, filename kalenda_H_recto.tif",
+    "rotate.png is 7x7 codels and produces four 49-byte outputs when initialized in each cardinal direction, each with 0x1B at position 25",
+    "the main diagonal of the second rotate.png output matches the anti-diagonal of the existing Toadskin output",
+    "the rotate interpreter README is signed 'K., Kraków' with a superscript 7 footnote marker and no footnote",
+    "the 'prints nothing until you turn it' description was added March 14, 2009"
   ],
   "motifs_used": [
     "the number 7",
@@ -465,7 +481,11 @@
     "gaps (incomplete museum records, disagreeing facsimiles, the queried stroke)",
     "the bracket-with-dot symbol (via the dotted central sign)",
     "gaps (unmatched citations, missing pause count, replaced image, empty user directory)",
-    "the bracket-with-dot symbol (via the dot inside the bent-arm sign)"
+    "the bracket-with-dot symbol (via the dot inside the bent-arm sign)",
+    "KALENDA (via K., Kraków and seven-character username)",
+    "gaps (missing footnote, vanished tarball, empty account)",
+    "left-handedness / things that work backwards (four-direction read, anti-diagonal mirror, push vs pop by direction)",
+    "the number 27 (via 0x1B at position 25)"
   ],
   "open_questions": [
     "whose notebook is it",
@@ -491,5 +511,5 @@
     "Indus script — 5000 inscriptions, no bilingual key, 250k sq mile distribution",
     "Voynich manuscript — sold for 600 ducats, vanished, resurfaced 1912"
   ],
-  "next_step": "Return to an esolang where the operator's orientation matters (a Befunge variant, or Piet) and let the direction-of-reading question surface again through code rather than inscription."
+  "next_step": "Return to an undeciphered script seam, probably Indus or Proto-Elamite, and plant a detail about a sign that changes value depending on the direction of reading, echoing the Piet transition."
 }
