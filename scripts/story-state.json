@@ -2,6 +2,18 @@
   "arc_position": "discovery",
   "posts": [
     {
+      "slug": "the-indus-sign-that-reverses-on-the-reverse",
+      "title": "the indus sign that reverses on the reverse",
+      "date": "2026-11-23",
+      "summary": "Narrator documents Indus seal M-1186 and finds that one sign (the bracket-with-dot variant 342) fails to reverse in the seal's impression while the others do, with a seventh faint stroke present only on the impression and a March 2009 catalogue update showing a sign-count mismatch.",
+      "planted": [
+        "sign 342 bracket-with-dot does not reverse in the impression though all other signs do",
+        "a seventh vertical stroke appears on the 1988 impression that is absent from the 1927 obverse photograph and from all three catalogues",
+        "NMI catalogue entry last updated March 2009 records seven signs on impression and six on obverse with no correction",
+        "seal M-1186 on loan to an unnamed borrowing institution"
+      ]
+    },
+    {
       "slug": "piet-and-the-program-that-reads-in-four-directions",
       "title": "piet and the program that reads in four directions",
       "date": "2026-11-16",
@@ -424,7 +436,11 @@
     "rotate.png is 7x7 codels and produces four 49-byte outputs when initialized in each cardinal direction, each with 0x1B at position 25",
     "the main diagonal of the second rotate.png output matches the anti-diagonal of the existing Toadskin output",
     "the rotate interpreter README is signed 'K., Kraków' with a superscript 7 footnote marker and no footnote",
-    "the 'prints nothing until you turn it' description was added March 14, 2009"
+    "the 'prints nothing until you turn it' description was added March 14, 2009",
+    "sign 342 bracket-with-dot does not reverse in the impression though all other signs do",
+    "a seventh vertical stroke appears on the 1988 impression that is absent from the 1927 obverse photograph and from all three catalogues",
+    "NMI catalogue entry last updated March 2009 records seven signs on impression and six on obverse with no correction",
+    "seal M-1186 on loan to an unnamed borrowing institution"
   ],
   "motifs_used": [
     "the number 7",
@@ -485,7 +501,10 @@
     "KALENDA (via K., Kraków and seven-character username)",
     "gaps (missing footnote, vanished tarball, empty account)",
     "left-handedness / things that work backwards (four-direction read, anti-diagonal mirror, push vs pop by direction)",
-    "the number 27 (via 0x1B at position 25)"
+    "the number 27 (via 0x1B at position 25)",
+    "gaps (uncatalogued stroke, missing borrower, unaddressed sign-count discrepancy, unexplained footnote)",
+    "left-handedness / things that work backwards (sign that fails to mirror, direction that follows the reader)",
+    "the number 7 (the seventh stroke, March 2009)"
   ],
   "open_questions": [
     "whose notebook is it",
@@ -511,5 +530,5 @@
     "Indus script — 5000 inscriptions, no bilingual key, 250k sq mile distribution",
     "Voynich manuscript — sold for 600 ducats, vanished, resurfaced 1912"
   ],
-  "next_step": "Return to an undeciphered script seam, probably Indus or Proto-Elamite, and plant a detail about a sign that changes value depending on the direction of reading, echoing the Piet transition."
+  "next_step": "Shift to an esolang or found document artifact and plant a detail about a symbol or instruction that behaves differently depending on which side it is observed from, keeping the bracket-with-dot and KALENDA threads quiet for one post."
 }
